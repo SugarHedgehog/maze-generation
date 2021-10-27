@@ -5,23 +5,23 @@
 		let a = 0;
 		if (x != 1) {
 			if (maze[y][x - 2] == pass)
-				a += 1;
-		} else a += 1;
+				a ++;
+		} else a ++;
 
 		if (y != 1) {
 			if (maze[y - 2][x] == pass)
-				a += 1;
-		} else a += 1;
+				a ++;
+		} else a ++;
 
 		if (x != length - 2) {
 			if (maze[y][x + 2] == pass)
-				a += 1;
-		} else a += 1;
+				a ++;
+		} else a ++;
 
 		if (y != length - 2) {
 			if (maze[y + 2][x] == pass)
-				a += 1;
-		} else a += 1;
+				a ++;
+		} else a ++;
 
 		if (a == 4)
 			return 1;
