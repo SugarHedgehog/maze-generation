@@ -83,7 +83,6 @@
 			} while (maze[y][x] != pass);
 		}
 	}
-
 	function ExiteEntr(maze, length, exites) {
 		for (let i = 0; i < length; i++)
 			for (let j = 0; j < length; j++)
